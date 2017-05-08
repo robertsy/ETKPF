@@ -1,0 +1,10 @@
+.Rproj.user
+.ETKPF.proj
+.Rhistory
+.RData
+.Ruserdata
+src/*.o
+src/*.so
+src/*.dll
+src/*.mod
+inst/devel/

@@ -1,0 +1,24 @@
+Package: ETKPF
+Type: Package
+Title: Ensemble Kalman Particle Transform Filter
+Version: 1.0
+Date: 2017-03-29
+Authors@R: person("Sylvain","Robert", email="rob.sylvain@gmail.com", role=
+    c("aut", "cre"))
+Description: Implementation of the ETKPF. The sole goal is to guarantee the
+  correctness of the fortran95 implementation used with COSMO by comparing both on simple
+  test cases. The availability of the code in R makes it easier to understand the logic
+  of the code and to try out new ideas.
+Depends:
+    tidyverse,
+    fields,
+    clue,
+    foreach
+License: GPL-3
+LazyData: TRUE
+Imports:
+    tidyverse,
+    fields,
+    clue,
+    foreach
+RoxygenNote: 6.0.1
